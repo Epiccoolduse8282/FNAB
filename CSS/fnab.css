@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  height: 200vh;
+  background-color: #111;
+}
+
+.base-map {
+  position: fixed;
+  bottom: -500px;
+  left: 0;
+  width: 700px;
+  height: auto;
+  z-index: 1;
+  pointer-events: none;
+  margin-right: 300px;
+ 
+}
+
+
+.overlay {
+  position: fixed;
+  z-index: 2;
+}
+
+.overlay-one {
+  bottom: -60px;
+  left: 60px;
+  width: 120px;
+}
+
+.overlay-two {
+  bottom: 0;
+  left: 140px;
+  width: 90px;
+}
